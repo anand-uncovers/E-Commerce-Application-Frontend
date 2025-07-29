@@ -324,3 +324,5 @@ export const womenLevelThree = [
         "parentCategoryId": "women_sports_and_active_wear"
     }
 ];
+
+export default womenLevelThree

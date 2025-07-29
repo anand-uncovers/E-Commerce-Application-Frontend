@@ -27,5 +27,13 @@ export const menLevelTwo=[
         "categoryId":"men_personal_care_and_grooming",
         "parentCategoryId":"men",
         "level":2
+    },
+    {
+         "name":"Fashion Accessories",
+        "categoryId":"men_fashion_accessories",
+        "parentCategoryId":"men",
+        "level":2
     }
 ];
+
+export default menLevelTwo

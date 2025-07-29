@@ -48,3 +48,4 @@ export const electronicsLevelThree = [
         "parentCategoryId": "electronics_speakers"
     }
 ];
+export default electronicsLevelThree

@@ -24,3 +24,5 @@ export const furnitureLevelTwo = [
         "level": 2
     }
 ];
+
+export default furnitureLevelTwo

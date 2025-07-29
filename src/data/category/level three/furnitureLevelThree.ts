@@ -60,3 +60,4 @@ export const furnitureLevelThree = [
         "parentCategoryId": "furniture_office_furniture"
     }
 ];
+export default furnitureLevelThree

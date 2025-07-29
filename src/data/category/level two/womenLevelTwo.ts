@@ -72,3 +72,5 @@ export const womenLevelTwo = [
         "level": 2
     }
 ];
+
+export default womenLevelTwo

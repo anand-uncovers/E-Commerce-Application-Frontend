@@ -24,3 +24,5 @@ export const electronicsLevelTwo = [
         "level": 2
     }
 ];
+
+export default electronicsLevelTwo

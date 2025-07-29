@@ -317,3 +317,5 @@ export const menLevelThree = [
         "parentCategoryId": "men_gadgets"
     }
 ];
+
+export default menLevelThree
