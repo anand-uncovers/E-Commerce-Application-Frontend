@@ -33,7 +33,13 @@ export const menLevelTwo=[
         "categoryId":"men_fashion_accessories",
         "parentCategoryId":"men",
         "level":2
-    }
+    },
+       {
+        "name": "Watches & Wearables",
+        "categoryId": "men_watches_and_wearables",
+        "parentCategoryId": "men",
+        "level": 2
+    },
 ];
 
 export default menLevelTwo

@@ -17,21 +17,10 @@ export const womenLevelTwo = [
         "parentCategoryId": "women",
         "level": 2
     },
-    {
-        "name": "Lingerie & Sleepwear",
-        "categoryId": "women_lingerie_and_sleepwear",
-        "parentCategoryId": "women",
-        "level": 2
-    },
+   
     {
         "name": "Beauty & Personal Care",
         "categoryId": "women_beauty_and_personal_care",
-        "parentCategoryId": "women",
-        "level": 2
-    },
-    {
-        "name": "Gadgets",
-        "categoryId": "women_gadgets",
         "parentCategoryId": "women",
         "level": 2
     },
@@ -62,6 +51,12 @@ export const womenLevelTwo = [
     {
         "name": "Watches & Wearables",
         "categoryId": "women_watches_and_wearables",
+        "parentCategoryId": "women",
+        "level": 2
+    }, 
+    {
+        "name": "Lingerie & Sleepwear",
+        "categoryId": "women_lingerie_and_sleepwear",
         "parentCategoryId": "women",
         "level": 2
     },
