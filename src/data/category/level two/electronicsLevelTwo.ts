@@ -64,6 +64,13 @@ export const electronicsLevelTwo = [
         "categoryId": "electronics_power_&_charging",
         "parentCategoryId": "electronics",
         "level": 2
+    },
+    ,
+    {
+        "name": "Gadgets",
+        "categoryId": "electronics_gadgets",
+        "parentCategoryId": "electronics",
+        "level": 2
     }
 ];
 
