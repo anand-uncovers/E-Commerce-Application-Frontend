@@ -48,21 +48,40 @@ const ProductCard = () => {
             src={item} alt=""
             style={{ transform: `translateX(${(index - currentImage) * 100}%)` }}
           />)}
-          {
-            <div>
+          {isHovered &&
+            <div className='indicator flex flex-col items-center space-y-2'>
 
               <div className='flex gap-3'>
                 <Button variant='contained' color='secondary'>
-                  <Favorite sx={{color:teal[500]}} />
+                  <Favorite sx={{ color: teal[500] }} />
                 </Button>
                 <Button variant='contained' color='secondary'>
-                  <ModeComment sx={{color:teal[500]}} />
+                  <ModeComment sx={{ color: teal[500] }} />
                 </Button>
 
               </div>
 
             </div>
           }
+        </div>
+        <div className='details pt-3 space-y-1 group-hover-effect rounded-md'>
+          <div className='name'>
+            <h1>Koskii</h1>
+            <p>Pink Saree</p>
+
+          </div>
+          <div className='price flex items-center gap-3'>
+            <span className="font-sans text-gray-800">
+              ₹ 1500
+            </span>
+            <span className="thin-line-through text-gray-400">
+              ₹ 2000
+            </span>
+            <span className='text-primary-color font-semibold'>
+              60%
+            </span>
+          </div>
+
         </div>
       </div>
     </>
